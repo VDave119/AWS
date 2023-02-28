@@ -12,3 +12,7 @@ echo "The disk usage is here $disk"
 uptime=$(uptime)
 
 echo="The exact uptime is $uptime"
+
+user=$(last -a)
+
+echo "The list of user logined"
