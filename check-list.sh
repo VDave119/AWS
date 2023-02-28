@@ -15,4 +15,4 @@ echo="The exact uptime is $uptime"
 
 user=$(last -a)
 
-echo "The list of user logined"
+echo "The list of user logined $user"
