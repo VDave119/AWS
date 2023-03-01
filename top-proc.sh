@@ -1,6 +1,6 @@
 #!/bin/bash
 
-top=$(top -b | head -15 )
+top=$(top -b | xargs |head -15 )
 
 echo "Top process are mentioned below:-"
 
